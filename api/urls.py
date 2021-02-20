@@ -19,6 +19,7 @@ from . import views
 
 urlpatterns = [
 
+    # path('tasklist', views.taskList, name='tasklist'),
     path('movies', views.getList, name='movies'),
 
 ]
